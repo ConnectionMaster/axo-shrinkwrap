@@ -188,6 +188,10 @@ function trimFrom(opts, callback) {
             return value;
         }
 
+        if (value == name + '@' + resolved) {
+          return undefined;
+        }
+
         var uri = url.parse(value);
 
         // if it's a `http:` link to registry its safe
@@ -253,4 +257,3 @@ function fixPackage(dirname, callback) {
         fs.writeFile(packageJsonFile, data, callback);
     });
 }
-
