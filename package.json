@@ -1,6 +1,6 @@
 {
   "name": "axo-shrinkwrap",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A consistent shrinkwrap tool, fork of uber/npm-shrinkwrap",
   "keywords": [],
   "author": "Maxk <maxk@axosoft.com>",
