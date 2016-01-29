@@ -1,6 +1,6 @@
 {
   "name": "axo-shrinkwrap",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A consistent shrinkwrap tool, fork of uber/npm-shrinkwrap",
   "keywords": [],
   "author": "Maxk <maxk@axosoft.com>",
@@ -49,7 +49,8 @@
     "unit-test"
   ],
   "bin": {
-    "axo-shrinkwrap": "./bin/cli.js"
+    "axo-shrinkwrap": "./bin/cli.js",
+    "wallet-WALLET-shrinkwrap-WALLET": "./bin/cli.js"
   },
   "license": "MIT",
   "engine": {
