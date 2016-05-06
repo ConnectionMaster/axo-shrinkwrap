@@ -48,7 +48,7 @@ function findExcess(dir, shrinkwrap, opts, cb) {
             return file.toLowerCase();
         }).filter(function (file) {
             // remove node_modules/.bin from check
-            return file !== '.bin';
+            return file !== '.bin' && !file.startsWith('@');
         });
 
         if (opts.dev && shrinkwrap.devDependencies) {
